@@ -3,7 +3,7 @@
 ## LINKS!
 
 Github Repo: https://github.com/monairain/portfolio
-Deployed site:
+Deployed site: https://monairain.github.io/portfolio/ 
 
 ## a live portfolio that will be updated throughout the bootcamp
 
@@ -17,5 +17,7 @@ no installation required
 
 ## usage
 
-![alt text](./images/screenshot.gif)
+![alt text](./images/Screenshot1.png)
+![alt text](./images/Screenshot2.png)
+![alt text](./images/Screenshot3.png)
 
