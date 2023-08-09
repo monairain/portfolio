@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-
+<!-- changed title and linked css file -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Mona Irain</title>
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
+    <h1>mona_irain</h1>
     <nav>
+  <!-- added navigation links -->
+      <a href="#about">About me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact me</a>
+      <a href="#">Resume</a>
     </nav>
   </header>
 
   <!-- hero banner -->
   <section class="hero-banner">
     <div>
-      <h2>Cool subtitle here!</h2>
+      <h2>Live Portfolio Site</h2>
     </div>
   </section>
 
@@ -28,16 +33,70 @@
     <!-- about me -->
     <section class="page-section" id="about">
       <h2>About Me</h2>
+      <div>
+        <p> I am a visual artist learning to code. This site will document my journey.</p>
+        <p> I am a visual artist learning to code. This site will document my journey.</p>
+        <p> I am a visual artist learning to code. This site will document my journey.</p>
+        <p> I am a visual artist learning to code. This site will document my journey.</p>
+        <p> I am a visual artist learning to code. This site will document my journey.</p>
+      </div>
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
       <h2>Work</h2>
+    <!-- added 'projects' in a div, flex-items to be later made into boxes in css -->
+
+      <div class="flex-container">
+        <a href="#" class="flex-item project1">
+         <div>
+          <h1>project1</h1>
+          <span>HTML</span>
+         </div>
+        </a>
+
+        <a href="#" class="flex-item project2">
+          <div>
+            <h1>project2</h1>
+            <span>CSS</span>
+          </div>
+        </a>
+
+        <a href="#" class="flex-item project3">
+          <div>
+            <h1>project3</h1>
+            <span>HTML + CSS</span>
+          </div>
+        </a>
+
+        <a href="#" class="flex-item project4">
+          <div>
+            <h1>project4</h1>
+            <span>Flexbox</span>
+          </div>
+        </a>
+
+        <a href="#" class="flex-item project5">
+          <div>
+            <h1>project5</h1>
+            <span>Grid</span>
+          </div>
+        </a>
     </section>
 
     <!-- contact -->
     <section class="page-section contact" id="contact">
       <h2>Contact Me</h2>
+    <!-- added links to contact me in a seperate division -->
+      <div>
+        <address>
+          <a href="tel:+44789100000">+44789100000</a>
+          <a href="mailto:mona.irain@gmail.com">mona.irain@gmail.com</a>
+          <a href="#">GitHub</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+        </address>
+      </div>
     </section>
   </main>
 </body>
